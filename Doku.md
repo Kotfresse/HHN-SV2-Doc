@@ -786,6 +786,7 @@ Da diese Stimme nur fünf Töne spielt, ist das Erstellen von Arrays hier wenige
 
 ## Fotoresistor und Lichtsteuerung
 Unser nächster Versuch ist mit einem Fotoresistor, den wir mit unserem Gerät anschließen. Diesen wollen wir dazu verwenden, unter bestimmten Bedingungen Daten an den Home Assistant zu senden. Je nachdem, wie viel Licht der Fotoresistor bekommt, ändert sich sein Widerstand. Bei mehr Licht sinkt er, bei weniger Licht erhöht er sich. Wir schalten den Fotoresistor in Reihe mit einem 10k Ohm Widerstand und messen die Spannung auf Pin 34 des ESP32.
+<br>
 ![Foto Res Pic](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/Fotores.png) 
 
 ```cpp

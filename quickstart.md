@@ -32,13 +32,15 @@ HHN-SV2/
 └── mosquitto/
   └── config/
 ```
-#home_assistant:
+home_assistant:
+
 ![Making home_assistant](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/home%20assistance%20folder.gif)
 ![Making home_assistant](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/home%20assistance%20config.gif)
 
 ---
 
 Mosquitto:
+
 ![Making mosquitto](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/mosquito%20folder.gif)
 ![Making mosquitto](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/mosquito%20config.gif)
 
@@ -287,21 +289,25 @@ log_dest stderr
 ## PlatformIO installieren
 1. Öffne die Extensions-Ansicht in Vs Code.
 2. Suche nach `PlatformIO` IDE und installiere es.
-   ![Install PIO](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/docker%20compose%20up%20and%20localhost.gif)
+
+  ![Install PIO](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/install%20PIO.gif)
 
 3. (Optional) Visual Studio Code nach der Installation neustarten.
 ## Neues Projekt starten
 1. Klicke in Vs Code auf das PlatformIO-Symbol in der Sidebar.
 2. Wähle `New Project`
-   ![PIO Project](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/Create%20PIO%20project.gif)
-3. Gib dem Projekt einen Namen, z.B. ESP32_SmartHome.
+
+  ![PIO Project](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/Create%20PIO%20project.gif)
+3. Gib dem Projekt einen Namen, z.B.     ESP32_SmartHome.
 4. Wähle des Board und das Framework aus.
 ## Board auswählen
 1. Falls Marc dir die Hardware gegeben hat ist es wahrscheinlich ein ESP32 Dev Module.
 2. Wähle als Framework Arduino.
 ## INI-Datei bearbeiten
 Location:
+
  ![Find Project](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/PIO%20project%20location.gif)
+
 Öffne die `platformio.ini`-Datei und passe sie an:
 
 ```ini
@@ -347,16 +353,19 @@ void loop() { //Wird regelmäßig wiederholt ausgeführt
    ```
    pio run --target upload
    ```
-    ![start upload](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/connect%20and%20upload%20code%20to%20ESP32.gif)
+
+  ![start upload](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/connect%20and%20upload%20code%20to%20ESP32.gif)
 2. Es kann sein, dass der ESP32 nicht in dem richtigen Zustand ist, weshalb man während des Upload den `Boot`-Knopf, der sich auf dem Brett befindet, drücken muss.
-   ![what if](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/upload%20error%20message.gif)
+   
+  ![what if](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/upload%20error%20message.gif)
 
 ## (optional) Seriellen Monitor starten
 1. Starte den seriellen Monitor, um die Ausgaben des ESP32 zu sehen:
    ```
    pio device monitor
    ```
-   ![what if](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/pressing%20stuff%20and%20seeing%20what%20changes%20in%20console.gif)
+  
+  ![what if](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/pressing%20stuff%20and%20seeing%20what%20changes%20in%20console.gif)
      
 2. Der Code läuft auch ohne diesen Schritt.
 ## Fertig
