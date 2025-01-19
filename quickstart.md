@@ -298,6 +298,7 @@ log_dest stderr
 2. Wähle `New Project`
 
   ![PIO Project](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/Create%20PIO%20project.gif)
+
 3. Gib dem Projekt einen Namen, z.B.     ESP32_SmartHome.
 4. Wähle des Board und das Framework aus.
 ## Board auswählen
@@ -355,6 +356,7 @@ void loop() { //Wird regelmäßig wiederholt ausgeführt
    ```
 
   ![start upload](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/connect%20and%20upload%20code%20to%20ESP32.gif)
+  
 2. Es kann sein, dass der ESP32 nicht in dem richtigen Zustand ist, weshalb man während des Upload den `Boot`-Knopf, der sich auf dem Brett befindet, drücken muss.
    
   ![what if](https://github.com/Kotfresse/HHN-SV2-Doc/raw/main/quickstart%20gifs/upload%20error%20message.gif)
